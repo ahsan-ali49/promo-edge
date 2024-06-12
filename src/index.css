@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #06061B;
+}
+
+#get-started{
+background: linear-gradient(262.78deg, #00C1FF 2.24%, #30EAB7 97.08%, #999999 97.08%, #999999 97.08%);
+}
