@@ -1,5 +1,5 @@
 import React from "react";
-import Rectangle from "../assets/images/Rectangle.png";
+import logo from "../assets/images/logo.png";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
           href="https://promoedge.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src={Rectangle} className="h-12" alt="promoedge Logo" />
+          <img src={logo} className="h-12" alt="promoedge Logo" />
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button

@@ -7,5 +7,12 @@ body{
 }
 
 #get-started{
-background: linear-gradient(262.78deg, #00C1FF 2.24%, #30EAB7 97.08%, #999999 97.08%, #999999 97.08%);
+background: -webkit-linear-gradient(262.78deg, #00C1FF 2.24%, #30EAB7 97.08%, #999999 97.08%, #999999 97.08%);
+}
+
+.gradient-class{
+    background: -webkit-linear-gradient(262.78deg, #00C1FF 2.24%, #30EAB7 97.08%, #999999 97.08%, #999999 97.08%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
