@@ -1,9 +1,15 @@
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 
-const LogoCard = ({ datarep }) => {
+const LogoCard = ({ datarep, index }) => {
+  let classes = "";
+  classes +=
+    index === 0
+      ? "w-full max-w-sm border rounded-lg shadow back-shade"
+      : "w-full max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700";
+  console.log(classes);
   return (
-    <div className="w-full max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700">
+    <div className={classes}>
       <div className="flex justify-end px-4 pt-4"></div>
       <div className="flex flex-col items-center pb-10">
         <img
