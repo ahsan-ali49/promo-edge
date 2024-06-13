@@ -3,8 +3,14 @@ import logo from "../assets/images/logo.png";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const Navbar = () => {
+  const style = {
+    backgroundColor: "#06061B",
+  };
   return (
-    <nav className=" fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <nav
+      style={style}
+      className="fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://promoedge.com/"
