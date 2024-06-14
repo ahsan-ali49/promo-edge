@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+  }
+
 body{
     background-color: #06061B;
 }
+
 
 #get-started{
     background: -webkit-linear-gradient(262.78deg, #00C1FF 2.24%, #30EAB7 97.08%, #999999 97.08%, #999999 97.08%);
@@ -21,3 +26,13 @@ body{
     background-image: linear-gradient(to bottom right,#8b48d7, transparent);
     border-color:  #00C1FF;
 }
+
+
+
+.about-log-div-2 {
+    background-color: rgba(6, 6, 45, 0.9);
+  }
+  
+  
+
+
