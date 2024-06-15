@@ -18,7 +18,7 @@ const AboutUs = () => {
         </p>
         <div className="flex flex-row w-full mt-10">
           <div className="relative top-2/4 w-3/6 flex flex-col items-center justify-center">
-            <div className="absolute top-48 left-48 w-64 h-52 border border-sky-500 rounded-lg mb-8 flex items-center">
+            <div className="absolute top-32 left-48 w-64 h-52 border border-sky-500 rounded-lg mb-8 flex items-center">
               <div className="about-log-div-2 w-full h-full rounded-lg flex items-center justify-center">
                 <img
                   src={AboutLogo1}
@@ -27,7 +27,7 @@ const AboutUs = () => {
                 />
               </div>
             </div>
-            <div className="absolute top-96 left-96 w-64 h-52 border border-sky-500 rounded-lg">
+            <div className="absolute top-80 left-96 w-64 h-52 border border-sky-500 rounded-lg">
               <div className="about-log-div-2 w-full h-full rounded-lg flex items-center justify-center">
                 <img
                   src={AboutLogo2}

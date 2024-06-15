@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import LogoCards from "./components/LogoCards";
 import AboutUs from "./components/AboutUs";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <LogoCards />
       <AboutUs />
+      <Pricing />
     </>
   );
 };
