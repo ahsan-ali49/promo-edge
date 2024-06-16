@@ -27,12 +27,25 @@ body{
     border-color:  #00C1FF;
 }
 
-
-
 .about-log-div-2 {
     background-color: rgba(6, 6, 45, 0.9);
   }
-  
-  
 
+/* custom.css or a similar file */
+.custom-list-marker::marker {
+    color: white; /* Change this to your desired color */
+    vertical-align: middle;
+}
 
+ .frame-19{
+
+box-sizing: border-box;
+
+    padding: 12px;
+
+    /* height: 48px; */
+
+    background: -webkit-linear-gradient(262.78deg, rgba(0, 193, 255, 0.15) 2.24%, rgba(48, 234, 183, 0.15) 97.08%, rgba(153, 153, 153, 0.15) 97.08%, rgba(153, 153, 153, 0.15) 97.08%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
