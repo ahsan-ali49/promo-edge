@@ -5,6 +5,7 @@ import LogoCards from "./components/LogoCards";
 import AboutUs from "./components/AboutUs";
 import Pricing from "./components/Pricing";
 import WhyUs from "./components/WhyUs";
+import SummaryCard from "./components/SummaryCard";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <AboutUs />
       <Pricing />
       <WhyUs />
+      <SummaryCard />
     </>
   );
 };

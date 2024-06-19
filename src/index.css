@@ -10,9 +10,12 @@ body{
     background-color: #06061B;
 }
 
+.my-transparent-text{
+    color: #06061B
+}
 
 #get-started{
-    background: -webkit-linear-gradient(262.78deg, #00C1FF 2.24%, #30EAB7 97.08%, #999999 97.08%, #999999 97.08%);
+    background: -webkit-linear-gradient(262.78deg, #00C1FF 2.24%, #30EAB7 97.08%);
 }
 
 .gradient-class{
@@ -40,11 +43,7 @@ body{
  .frame-19{
 
 box-sizing: border-box;
-
     padding: 12px;
-
-    /* height: 48px; */
-
     background: -webkit-linear-gradient(262.78deg, rgba(0, 193, 255, 0.15) 2.24%, rgba(48, 234, 183, 0.15) 97.08%, rgba(153, 153, 153, 0.15) 97.08%, rgba(153, 153, 153, 0.15) 97.08%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
