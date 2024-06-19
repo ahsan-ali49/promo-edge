@@ -6,7 +6,7 @@ const LogoCard = ({ datarep, index }) => {
   classes +=
     index === 0
       ? "w-full max-w-sm border rounded-lg shadow back-shade"
-      : "w-full max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700";
+      : "w-full max-w-sm border rounded-lg shadow border-gray-200 dark:bg-gray-900 dark:border-gray-700";
   console.log(classes);
   return (
     <div className={classes}>

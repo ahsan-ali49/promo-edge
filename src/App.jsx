@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import LogoCards from "./components/LogoCards";
 import AboutUs from "./components/AboutUs";
 import Pricing from "./components/Pricing";
+import WhyUs from "./components/WhyUs";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <LogoCards />
       <AboutUs />
       <Pricing />
+      <WhyUs />
     </>
   );
 };
