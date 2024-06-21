@@ -7,7 +7,7 @@ const PricingCard = ({ priceData }) => {
       <h5 className="mb-4 text-xl font-medium text-white dark:text-white frame-19 w-full text-center w-full h-12">
         {priceData.title}
       </h5>
-      <div className="flex items-baseline text-gray-900 dark:text-white mb-4">
+      <div className="flex items-baseline w-full justify-center text-gray-900 dark:text-white mb-4">
         <span className="text-3xl font-semibold">$</span>
         <span className="text-5xl font-extrabold tracking-tight">
           {priceData.price}
