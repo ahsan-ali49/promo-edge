@@ -30,7 +30,7 @@ const LogoCards = () => {
   ];
   return (
     <section>
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:py-0 lg:grid-cols-3 justify-stretch justify-items-center gap-10 mt-20 mb-20">
+      <div className="grid max-w-screen-xl px-4 pt-0 mx-auto lg:py-0 lg:grid-cols-3 justify-stretch justify-items-center gap-2 lg:gap-10 mt-20 mb-20">
         {cardsData.map((cardData, index) => {
           console.log(index);
           return <LogoCard key={index} datarep={cardData} index={index} />;

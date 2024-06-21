@@ -20,7 +20,7 @@ const LogoCard = ({ datarep, index }) => {
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
           {datarep.header}
         </h5>
-        <span className="text-sm text-center text-gray-500 dark:text-gray-400">
+        <span className="text-sm text-center px-2 text-gray-500 dark:text-gray-400">
           {datarep.description}
         </span>
         <div className="flex mt-4 md:mt-6">

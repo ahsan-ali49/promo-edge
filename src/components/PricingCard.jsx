@@ -1,9 +1,13 @@
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 
-const PricingCard = ({ priceData }) => {
+const PricingCard = ({ priceData, index }) => {
+  let classes =
+    "w-full h-full max-w-sm p-4 border border-gray-200 rounded-lg shadow sm:p-8 lg:pb-0 dark:bg-gray-800 flex flex-col";
+  if (index == 1) classes += " dark:border-blue-500";
+  else classes += " dark:border-gray-700";
   return (
-    <div className="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 lg:pb-0 dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+    <div className={classes}>
       <h5 className="mb-4 text-xl font-medium text-white dark:text-white frame-19 w-full text-center w-full h-12">
         {priceData.title}
       </h5>

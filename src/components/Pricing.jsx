@@ -161,7 +161,7 @@ const Pricing = () => {
 
   return (
     <section>
-      <div className="flex flex-col items-center mb-40">
+      <div className="flex flex-col items-center mt-16 mb-4 lg:mb-40">
         <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl gradient-class">
           PRICING PLANS
         </p>
@@ -175,7 +175,7 @@ const Pricing = () => {
                 className="lg:col-span-4 md:col-span-6 sm:col-span-12"
                 key={index}
               >
-                <PricingCard priceData={priceData} />
+                <PricingCard priceData={priceData} index={index} />
               </div>
             );
           })}

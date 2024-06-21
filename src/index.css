@@ -4,10 +4,15 @@
 
 * {
     box-sizing: border-box;
-  }
+}
 
 body{
     background-color: #06061B;
+    /* overflow-x: auto;
+    overflow-y: hidden; */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .my-transparent-text{

@@ -5,9 +5,9 @@ import { FiArrowUpRight } from "react-icons/fi";
 const Hero = () => {
   return (
     <section className="pt-20 lg:pt-32">
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:py-0 lg:grid-cols-12">
+      <div className="grid max-w-screen-xl px-4 pt-8 pb-0 mx-auto lg:py-0 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
-          <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl gradient-class">
+          <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl text-center gradient-class">
             WELCOME TO PROMO EDGE SOLUTIONS
           </p>
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">

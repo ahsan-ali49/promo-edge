@@ -7,14 +7,14 @@ import CollaborationLogo from "../assets/images/CollaborationLogo.png";
 const WhyUs = () => {
   return (
     <section>
-      <div className="flex flex-col items-center mt-40 mb-40">
+      <div className="flex flex-col items-center mt-16 lg:mt-40 mb-4 lg:mb-40">
         <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl gradient-class">
           WHY CHOOSE US
         </p>
         <h1 className="mb-4 text-4xl text-center tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
           Feel your love with graphics!
         </h1>
-        <p className="max-w-5xl text-center mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+        <p className="max-w-5xl text-center mb-6 px-2 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
           The professional logo design process plays a significant role in the
           development of logos and other visual content. Breaking down the
           entire project into smaller, manageable chunks helps architects,
