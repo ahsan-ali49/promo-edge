@@ -7,22 +7,22 @@ import CollaborationLogo from "../assets/images/CollaborationLogo.png";
 const WhyUs = () => {
   return (
     <section>
-      <div className="flex flex-col items-center mt-16 lg:mt-40 mb-4 lg:mb-40">
+      <div className="flex flex-col items-center mt-16 lg:mt-40 mb-4 lg:mb-40 mb-16">
         <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl gradient-class">
           WHY CHOOSE US
         </p>
-        <h1 className="mb-4 text-4xl text-center tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+        <h1 className="mb-4 text-3xl text-center tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
           Feel your love with graphics!
         </h1>
-        <p className="max-w-5xl text-center mb-6 px-2 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+        <p className="max-w-4xl text-center mb-6 px-2 font-light text-gray-500 lg:mb-8 text-base md:text-lg lg:text-xl dark:text-gray-400">
           The professional logo design process plays a significant role in the
           development of logos and other visual content. Breaking down the
           entire project into smaller, manageable chunks helps architects,
           thinkers, and artists approach their tasks with utmost clarity and
           creativity.
         </p>
-        <div className="flex flex-row text-white max-w-screen-xl">
-          <div className="flex flex-col border border-0 border-e-2 border-sky-500 pr-16 gap-8">
+        <div className="flex flex-row flex-wrap text-white max-w-screen-xl">
+          <div className="flex flex-col border border-0 lg:border-e-2 border-sky-500 lg:pr-16 px-2 gap-8">
             <div className="flex flex-row border border-0 border-b-2 border-sky-500">
               <div className="px-6">
                 <img
@@ -58,7 +58,7 @@ const WhyUs = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-10 mr-0 pl-8 gap-8">
+          <div className="flex flex-col flex-wrap lg:ml-10 mr-0 lg:pl-8 gap-8">
             <div className="flex flex-row border border-0 border-b-2 border-sky-500">
               <div className="px-6">
                 <img

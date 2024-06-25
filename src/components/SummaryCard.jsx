@@ -5,9 +5,9 @@ const SummaryCard = () => {
   return (
     <section>
       <div className="flex flex-col max-w-screen-xl border border-white mx-auto rounded-lg mb-10">
-        <div className="flex flex-row card-summary-bg">
-          <div className="w-2/4 p-10">
-            <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl gradient-class">
+        <div className="flex flex-row flex-wrap card-summary-bg">
+          <div className="w-full lg:w-2/4 pt-10 px-8 lg:p-10">
+            <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 text-sm md:text-lg lg:text-xl gradient-class">
               POCKET-FRIENDLY PRICING FOR THE PERFECT DESIGN AND TEMPLATES FOR
               ALL
             </p>
@@ -15,7 +15,7 @@ const SummaryCard = () => {
               Start from $99
             </p>
           </div>
-          <div className="w-2/4 p-10">
+          <div className="w-full lg:w-2/4 py-10 px-8 lg:p-10">
             <p className="max-w-2xl text-left mb-6 font-light text-gray-500 lg:mb-8 md:text-md lg:text-md dark:text-gray-300 px-0 mx-0">
               We know our competition. Perhaps that is why we have a fair
               pricing model for logos. Professional logo designers in the market
@@ -32,11 +32,11 @@ const SummaryCard = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-row" id="get-started">
-          <h1 className="text-4xl mt-16 pl-10 my-transparent-text">
+        <div className="flex flex-row flex-wrap" id="get-started">
+          <h1 className="text-3xl mt-16 px-10 my-transparent-text">
             Because your Satisfaction is Everything.
           </h1>
-          <p className="w-2/4 text-left mt-6 pr-10 font-light my-transparent-text lg:mb-8 md:text-base lg:text-base">
+          <p className="lg:w-2/4 text-left mt-6 px-10 lg:pr-10 font-light my-transparent-text mb-8 md:text-base lg:text-base">
             Our team is a leader in the industry where offering genuinely
             creative design is a rarity. We have it all at our
             one-stop-design-shop. The seamless transition of ideas into reality

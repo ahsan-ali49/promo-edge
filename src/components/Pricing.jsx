@@ -168,7 +168,7 @@ const Pricing = () => {
         <h1 className="mb-4 text-4xl text-center tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
           That Work For You!
         </h1>
-        <div className="grid gap-y-5 lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-3 max-w-screen-xl px-4 py-8 mx-auto lg:py-0 lg:grid-cols-12 w-full text-white">
+        <div className="grid gap-y-5 lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-3 max-w-screen-xl px-4 py-8 ml-4 lg:py-0 lg:grid-cols-12 w-full">
           {pricingData.map((priceData, index) => {
             return (
               <div

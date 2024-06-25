@@ -6,8 +6,8 @@ import { LuPhone } from "react-icons/lu";
 const Footer = () => {
   return (
     <section>
-      <div className="py-8 border border-0 border-t-2 border-white w-full">
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:py-10 lg:grid-cols-12 text-white border border-0 border-b-2 border-white">
+      <div className="py-8 border border-0 border-t-2 border-white w-full text-center">
+        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:py-10 lg:grid-cols-12 text-white border border-0 border-b-2 border-white text-left">
           <div className="mr-auto place-self-center lg:col-span-8">
             <p className="max-w-lg mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl gradient-class">
               WHY CHOOSE US
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <span className="max-w-screen-xl inline-block mt-10 text-center lg:px-52 text-white">
+        <span className="max-w-screen-xl inline-block mt-10 lg:px-52 text-white text-center">
           Copyright. Promo Edge 2024{" "}
         </span>
       </div>
